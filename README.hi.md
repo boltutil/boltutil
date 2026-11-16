@@ -4,7 +4,7 @@
 
 ## USDT और USDC भुगतान सीधे आपके वॉलेट में।
 
-[मुफ़्त शुरू करें](https://boltutil.com/hi/auth/register?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=start) · [API दस्तावेज़](https://boltutil.com/hi/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=docs) · [कीमतें](https://boltutil.com/hi/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=pricing)
+[मुफ़्त शुरू करें](https://boltutil.com/hi/auth/register?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_start) · [API दस्तावेज़](https://boltutil.com/hi/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_docs) · [कीमतें](https://boltutil.com/hi/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_pricing)
 
 BoltUtil वेबसाइट, SaaS और WooCommerce स्टोर के लिए एक नॉन-कस्टोडियल स्टेबलकॉइन भुगतान API और होस्ट किया गया चेकआउट है। व्यापारी का सर्वर ऑर्डर बनाता है और ग्राहक व्यापारी के पते पर भुगतान करता है। BoltUtil ऑन-चेन ट्रांसफ़र और आवश्यक पुष्टियों की जाँच के बाद हस्ताक्षरित Webhook भेजता है। यह निजी कुंजी या रिकवरी फ़्रेज़ नहीं माँगता।
 
@@ -14,7 +14,7 @@ BoltUtil वेबसाइट, SaaS और WooCommerce स्टोर के �
 
 ## वॉलेट भुगतान या मैनुअल ट्रांसफ़र
 
-पता, नेटवर्क और सटीक राशि अपने आप भरी जाती है। ग्राहक वॉलेट जोड़कर जानकारी जाँचता है और पुष्टि करता है। मैनुअल ट्रांसफ़र, QR और पता कॉपी करना भी उपलब्ध है। MetaMask, OKX Wallet, Trust Wallet, Phantom, TronLink, Bitget Wallet, Binance Wallet, TokenPocket, SafePal और Base app के विकल्प नेटवर्क और डिवाइस पर निर्भर हैं। कुछ ऐप के ब्राउज़र में ऑर्डर खोलते हैं; सभी फ़ोन और डेस्कटॉप सेशन को QR से पेयर नहीं करते। वॉलेट जोड़ने से पैसे नहीं भेजे जाते। पहली बार अनलॉक, अनुमति या नेटवर्क बदलना पड़ सकता है; नेटवर्क फ़ीस के लिए नेटिव कॉइन चाहिए।
+पता, नेटवर्क और सटीक राशि अपने आप भरी जाती है। ग्राहक वॉलेट जोड़कर जानकारी जाँचता है और पुष्टि करता है। मैनुअल ट्रांसफ़र, QR और पता कॉपी करना भी उपलब्ध है। MetaMask, OKX Wallet, Trust Wallet, Phantom, TronLink, Bitget Wallet, Binance Wallet, TokenPocket, SafePal और Coinbase Wallet के विकल्प नेटवर्क और डिवाइस पर निर्भर हैं। कुछ ऐप के ब्राउज़र में ऑर्डर खोलते हैं; सभी फ़ोन और डेस्कटॉप सेशन को QR से पेयर नहीं करते। वॉलेट जोड़ने से पैसे नहीं भेजे जाते। पहली बार अनलॉक, अनुमति या नेटवर्क बदलना पड़ सकता है; नेटवर्क फ़ीस के लिए नेटिव कॉइन चाहिए।
 
 ## इंटीग्रेशन शुरू करें
 
@@ -28,12 +28,12 @@ API की न्यूनतम राशि 1 है और अधिकतम
 
 ## WooCommerce और योजनाएँ
 
-प्लगइन v0.6.1 [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) प्लगइन डायरेक्टरी में प्रकाशित है। इसके लिए WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD मुद्रा वाला स्टोर और BoltUtil खाता आवश्यक हैं। ग्राहक टोकन और नेटवर्क चुनता है; ऑर्डर पूरा करने से पहले हस्ताक्षरित Webhook और भुगतान स्थिति की जाँच होती है। स्टोर पर लौटना भुगतान का प्रमाण नहीं है। लाइव विनिमय दर उपलब्ध नहीं है। WordPress.org से इंस्टॉल करें या GitHub Releases का संस्करण वाला ZIP उपयोग करें। डेमो में खरीद वास्तविक धन से होती है।
+प्लगइन v0.6.2 [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) प्लगइन डायरेक्टरी में प्रकाशित है। इसके लिए WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD मुद्रा वाला स्टोर और BoltUtil खाता आवश्यक हैं। ग्राहक टोकन और नेटवर्क चुनता है; ऑर्डर पूरा करने से पहले हस्ताक्षरित Webhook और भुगतान स्थिति की जाँच होती है। स्टोर पर लौटना भुगतान का प्रमाण नहीं है। लाइव विनिमय दर उपलब्ध नहीं है। WordPress.org से इंस्टॉल करें या GitHub Releases का संस्करण वाला ZIP उपयोग करें। डेमो में खरीद वास्तविक धन से होती है।
 
 दैनिक मुफ़्त ऑर्डर कोटा और दैनिक ऑर्डर सीमा के बिना सब्सक्रिप्शन उपलब्ध हैं। मौजूदा कोटा, लाभ और शुल्क आधिकारिक साइट पर देखें; नेटवर्क फ़ीस अलग है। कम, देर से या अस्पष्ट भुगतान की समीक्षा चाहिए। BoltUtil एक्सचेंज नहीं है और अपने आप फ़िएट में नहीं बदलता।
 
 इस रिपॉज़िटरी के दस्तावेज़ और उदाहरण MIT हैं; प्रोडक्शन प्लेटफ़ॉर्म का स्रोत निजी है। प्लगइन GPLv2 या बाद का है। ब्रांड नाम आधिकारिक समर्थन नहीं दर्शाते। अंग्रेज़ी गाइड और API तकनीकी आधार हैं। सीक्रेट सार्वजनिक न करें; सुरक्षा समस्याओं के लिए SECURITY.md देखें।
 
-[USDC गाइड](https://boltutil.com/hi/docs/usdc-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=readme) · [Base गाइड](https://boltutil.com/hi/docs/base-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=readme) · [WooCommerce प्लगइन](https://github.com/changye0413/boltutil-payments-for-woocommerce) · [डेमो स्टोर](https://shop-test.boltutil.com/)
+[USDC गाइड](https://boltutil.com/hi/docs/usdc-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_readme) · [Base गाइड](https://boltutil.com/hi/docs/base-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_readme) · [WooCommerce प्लगइन](https://github.com/boltutil/boltutil-payments-for-woocommerce) · [डेमो स्टोर](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=hi_website)
 
-[सहायता और उदाहरण](examples/README.md) · [OpenAPI](openapi.yaml) · [Postman](postman/BoltUtil.postman_collection.json) · [Discussions](https://github.com/changye0413/boltutil/discussions) · [support@boltutil.com](mailto:support@boltutil.com) · [X: @heyharryzhang](https://x.com/heyharryzhang) · [English](README.md)
+[सहायता और उदाहरण](examples/README.md) · [OpenAPI](openapi.yaml) · [Postman](postman/BoltUtil.postman_collection.json) · [Discussions](https://github.com/boltutil/boltutil/discussions) · [support@boltutil.com](mailto:support@boltutil.com) · [X: @heyharryzhang](https://x.com/heyharryzhang) · [English](README.md)

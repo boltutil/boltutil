@@ -4,7 +4,7 @@
 
 ## Pagos USDT y USDC, directamente a tu cartera.
 
-[Empezar gratis](https://boltutil.com/es/auth/register?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=start) · [Documentación API](https://boltutil.com/es/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=docs) · [Precios](https://boltutil.com/es/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=pricing)
+[Empezar gratis](https://boltutil.com/es/auth/register?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_start) · [Documentación API](https://boltutil.com/es/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_docs) · [Precios](https://boltutil.com/es/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_pricing)
 
 BoltUtil es una API de pagos con stablecoins y una página de pago alojada, sin custodia, para sitios web, SaaS y tiendas WooCommerce. Tu servidor crea el pedido; el cliente paga a la dirección del comerciante. BoltUtil verifica la transferencia y las confirmaciones antes de enviar un Webhook firmado. No solicita claves privadas ni frases de recuperación.
 
@@ -14,7 +14,7 @@ Una integración cubre seis redes y once combinaciones de activo/red. TRON admit
 
 ## Confirmación en la cartera o transferencia manual
 
-La opción de pago con cartera rellena la dirección, red y cantidad exacta. El cliente conecta su cartera, revisa y confirma. La transferencia manual, el QR y la copia de dirección siguen disponibles. MetaMask, OKX Wallet, Trust Wallet, Phantom, TronLink, Bitget Wallet, Binance Wallet, TokenPocket, SafePal y Base app tienen entradas según la red y el dispositivo. Algunas abren el pedido dentro del navegador de la aplicación; no todas emparejan el teléfono con el escritorio mediante QR. Conectar no envía fondos. Puede ser necesario desbloquear, autorizar o cambiar de red, y disponer de moneda nativa para las comisiones.
+La opción de pago con cartera rellena la dirección, red y cantidad exacta. El cliente conecta su cartera, revisa y confirma. La transferencia manual, el QR y la copia de dirección siguen disponibles. MetaMask, OKX Wallet, Trust Wallet, Phantom, TronLink, Bitget Wallet, Binance Wallet, TokenPocket, SafePal y Coinbase Wallet tienen entradas según la red y el dispositivo. Algunas abren el pedido dentro del navegador de la aplicación; no todas emparejan el teléfono con el escritorio mediante QR. Conectar no envía fondos. Puede ser necesario desbloquear, autorizar o cambiar de red, y disponer de moneda nativa para las comisiones.
 
 ## Integración
 
@@ -28,7 +28,7 @@ La API acepta importes desde 1 con hasta seis decimales. Los ejemplos de Node.js
 
 ## WooCommerce y planes
 
-El plugin v0.6.1 está publicado en el directorio de [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Requiere WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, una tienda en USD y una cuenta BoltUtil. Permite elegir moneda y red y verifica el Webhook firmado y el estado antes de completar el pedido; volver a la tienda no demuestra el pago. No ofrece cotización de cambio en vivo. Instálalo desde WordPress.org o mediante el ZIP versionado de GitHub Releases. Las compras de la demo usan dinero real.
+El plugin v0.6.2 está publicado en el directorio de [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Requiere WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, una tienda en USD y una cuenta BoltUtil. Permite elegir moneda y red y verifica el Webhook firmado y el estado antes de completar el pedido; volver a la tienda no demuestra el pago. No ofrece cotización de cambio en vivo. Instálalo desde WordPress.org o mediante el ZIP versionado de GitHub Releases. Las compras de la demo usan dinero real.
 
 Hay una cuota gratuita diaria; los planes de suscripción no tienen límite diario de pedidos. Consulta las condiciones y tarifas actuales en el sitio oficial. Las comisiones de red son independientes. BoltUtil no es una bolsa ni convierte automáticamente a moneda fiduciaria. Los pagos incompletos, tardíos o ambiguos requieren revisión.
 
@@ -36,6 +36,6 @@ Hay una cuota gratuita diaria; los planes de suscripción no tienen límite diar
 
 Este repositorio publica documentación y ejemplos MIT, no el código de producción propietario. El plugin utiliza GPLv2 o posterior. Las marcas identifican integraciones, no avales. La guía inglesa y la referencia API son la base técnica. No publiques secretos en Issues; para seguridad utiliza SECURITY.md.
 
-[Guía USDC](https://boltutil.com/es/docs/usdc-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=readme) · [Guía Base](https://boltutil.com/es/docs/base-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=readme) · [Plugin WooCommerce](https://github.com/changye0413/boltutil-payments-for-woocommerce) · [Demo en vivo](https://shop-test.boltutil.com/)
+[Guía USDC](https://boltutil.com/es/docs/usdc-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_readme) · [Guía Base](https://boltutil.com/es/docs/base-integration?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_readme) · [Plugin WooCommerce](https://github.com/boltutil/boltutil-payments-for-woocommerce) · [Demo en vivo](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=es_website)
 
-[Soporte y ejemplos](examples/README.md) · [OpenAPI](openapi.yaml) · [Postman](postman/BoltUtil.postman_collection.json) · [Discussions](https://github.com/changye0413/boltutil/discussions) · [support@boltutil.com](mailto:support@boltutil.com) · [X: @heyharryzhang](https://x.com/heyharryzhang) · [English](README.md)
+[Soporte y ejemplos](examples/README.md) · [OpenAPI](openapi.yaml) · [Postman](postman/BoltUtil.postman_collection.json) · [Discussions](https://github.com/boltutil/boltutil/discussions) · [support@boltutil.com](mailto:support@boltutil.com) · [X: @heyharryzhang](https://x.com/heyharryzhang) · [English](README.md)

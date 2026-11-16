@@ -155,10 +155,10 @@ The harness uses only a loopback mock API and a synthetic Webhook secret. It che
 
 ## References
 
-- [Developer documentation](https://boltutil.com/developer-docs) · [Chinese](https://boltutil.com/zh/developer-docs)
-- [Create order](https://boltutil.com/docs/create-order) · [Chinese](https://boltutil.com/zh/docs/create-order)
-- [Webhook signatures](https://boltutil.com/docs/webhook-signature) · [Chinese](https://boltutil.com/zh/docs/webhook-signature)
-- [Check a payment](https://boltutil.com/guides/verify-usdt-payment) · [Chinese](https://boltutil.com/zh/guides/verify-usdt-payment)
-- [Pricing, limits and fees](https://boltutil.com/pricing) · [Chinese](https://boltutil.com/zh/pricing)
-- **WooCommerce is a separate integration**: [official plugin and setup](https://boltutil.com/woocommerce), [WordPress directory](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/), [plugin source](https://github.com/changye0413/boltutil-payments-for-woocommerce). Use that plugin rather than replacing its scoped payment protocol with these merchant `/order/create` demos.
+- [Developer documentation](https://boltutil.com/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_developer-docs) · [Chinese](https://boltutil.com/zh/developer-docs?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_developer-docs)
+- [Create order](https://boltutil.com/docs/create-order?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_create-order) · [Chinese](https://boltutil.com/zh/docs/create-order?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_create-order)
+- [Webhook signatures](https://boltutil.com/docs/webhook-signature?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_webhook-signature) · [Chinese](https://boltutil.com/zh/docs/webhook-signature?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_webhook-signature)
+- [Check a payment](https://boltutil.com/guides/verify-usdt-payment?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_verify-usdt-payment) · [Chinese](https://boltutil.com/zh/guides/verify-usdt-payment?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_verify-usdt-payment)
+- [Pricing, limits and fees](https://boltutil.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_pricing) · [Chinese](https://boltutil.com/zh/pricing?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_pricing)
+- **WooCommerce is a separate integration**: [official plugin and setup](https://boltutil.com/woocommerce?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_woocommerce), [WordPress directory](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/), [plugin source](https://github.com/boltutil/boltutil-payments-for-woocommerce). Use that plugin rather than replacing its scoped payment protocol with these merchant `/order/create` demos.
 - [Public OpenAPI](../openapi.yaml) and [Postman collection](../postman/BoltUtil.postman_collection.json)

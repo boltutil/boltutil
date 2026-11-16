@@ -2,6 +2,13 @@
 
 This changelog covers the documentation and merchant-side examples in this public repository. It is not a complete production-service deployment log.
 
+## Documentation maintenance — 2026-11-16
+
+- Align current plugin references with the published v0.6.2 release and canonical `boltutil` organization URLs.
+- Replace the featured image with a current public website interaction-demo capture, showing Ethereum USDT and current wallet labels.
+- Clarify common integration questions and distinguish per-repository, per-language website referrals.
+- Preserve service/plugin version separation, token-variant constraints and payment-confirmation requirements. No payment API or hosted-service release is included.
+
 ## Documentation maintenance — 2026-10-31
 
 - Use evergreen API documentation positioning and consistent lowercase repository links.
