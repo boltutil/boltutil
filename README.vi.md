@@ -28,7 +28,9 @@ API nhận số tiền từ 1, tối đa sáu chữ số thập phân. Ví dụ 
 
 ## WooCommerce và gói dịch vụ
 
-Plugin v0.6.2 đã được phát hành trên thư mục [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Yêu cầu WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, cửa hàng dùng USD và tài khoản BoltUtil. Khách chọn token và mạng; plugin kiểm tra Webhook có chữ ký và trạng thái thanh toán trước khi hoàn tất đơn. Quay lại cửa hàng không chứng minh đã thanh toán. Không cung cấp tỷ giá trực tiếp. Cài từ WordPress.org hoặc dùng ZIP phiên bản trên GitHub Releases. Mua hàng ở cửa hàng demo sử dụng tiền thật.
+Plugin v0.6.3 đã được phát hành trên thư mục [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Yêu cầu WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, cửa hàng dùng USD và tài khoản BoltUtil. Khách chọn token và mạng; plugin kiểm tra Webhook có chữ ký và trạng thái thanh toán trước khi hoàn tất đơn. Quay lại cửa hàng không chứng minh đã thanh toán. Không cung cấp tỷ giá trực tiếp. Cài từ WordPress.org hoặc dùng ZIP phiên bản trên GitHub Releases. Mua hàng ở cửa hàng demo sử dụng tiền thật.
+
+Trang thanh toán hóa đơn, thanh toán cổ điển và Checkout Blocks dùng chung thẻ BoltUtil, biểu tượng gốc và nút chuyển USDT/USDC.
 
 Có hạn mức miễn phí mỗi ngày và gói thuê bao không giới hạn số đơn mỗi ngày. Xem hạn mức, quyền lợi và giá hiện hành trên website; phí mạng riêng biệt. Thanh toán thiếu, muộn hoặc không rõ thuộc đơn nào cần kiểm tra. BoltUtil không phải sàn và không tự đổi sang tiền pháp định.
 

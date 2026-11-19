@@ -30,10 +30,10 @@ Create an order from your backend. Your customer pays the merchant’s receiving
 | Wallet checkout | Address, network and exact amount filled in; customer reviews and confirms |
 | Manual transfer | QR code, copyable address and exact amount remain available |
 | Payment operations | Confirmation tracking, transaction hashes, order timelines, signed Webhook delivery logs and retries |
-| WooCommerce | Separate open-source v0.6.2 plugin with token switching and eligible network choices |
+| WooCommerce | Separate open-source v0.6.3 plugin with token switching and eligible network choices |
 | Localization | Website UI and these product guides in 12 languages |
 
-This repository is the **public integration hub**, not the production platform source. The hosted BoltUtil service is proprietary. See [repository scope](NOTICE.md). The hosted service, plugin **v0.6.2** and public documentation updates have separate version histories. Documentation reviewed: **2026-11-16**.
+This repository is the **public integration hub**, not the production platform source. The hosted BoltUtil service is proprietary. See [repository scope](NOTICE.md). The hosted service, plugin **v0.6.3** and public documentation updates have separate version histories. Documentation reviewed: **2026-11-19**.
 
 ## Supported stablecoins and networks
 
@@ -120,11 +120,15 @@ Import [OpenAPI](openapi.yaml) or the [Postman collection](postman/BoltUtil.post
 
 ## WooCommerce USDT / USDC plugin
 
-[**BoltUtil Payments for WooCommerce v0.6.2**](https://github.com/boltutil/boltutil-payments-for-woocommerce) lets customers choose a token, then an eligible network before continuing to Hosted Checkout. The plugin verifies signed callbacks and merchant-scoped API status before updating the WooCommerce order. A browser return does not mark an order paid.
+[**BoltUtil Payments for WooCommerce v0.6.3**](https://github.com/boltutil/boltutil-payments-for-woocommerce) lets customers choose a token, then an eligible network before continuing to Hosted Checkout. The plugin verifies signed callbacks and merchant-scoped API status before updating the WooCommerce order. A browser return does not mark an order paid.
+
+Invoice payments, Classic Checkout and Checkout Blocks now share the BoltUtil card, original project icons and a USDT/USDC switch.
+
+![WooCommerce v0.6.3 invoice payment with USDC and Base selected](https://raw.githubusercontent.com/boltutil/boltutil-payments-for-woocommerce/v0.6.3/wordpress-org-assets/screenshot-2.jpg)
 
 Requirements: WordPress **7.0+**, PHP **7.4+**, WooCommerce **11.1+**, HTTPS and a store currency of **USD**. The USD numeric total is the invoice basis; this plugin does not provide a live exchange-rate quote or lock. Customer network fees are separate.
 
-[Installable ZIP and release notes](https://github.com/boltutil/boltutil-payments-for-woocommerce/releases/tag/v0.6.2) · [Setup guide](https://boltutil.com/woocommerce?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_woocommerce) · [Live demo store](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_website)
+[Installable ZIP and release notes](https://github.com/boltutil/boltutil-payments-for-woocommerce/releases/tag/v0.6.3) · [Setup guide](https://boltutil.com/woocommerce?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_woocommerce) · [Live demo store](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=en_website)
 
 The plugin is published in the [WordPress.org Plugin Directory](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Install from WordPress.org or use the versioned installable ZIP from GitHub Releases. GitHub source archives are not the plugin install package.
 

@@ -28,7 +28,9 @@ API の最小金額は 1、小数点以下は最大 6 桁です。Node.js・Pyth
 
 ## WooCommerce と料金
 
-プラグイン v0.6.2 は [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) ディレクトリで公開されています。WordPress 7.0+、PHP 7.4+、WooCommerce 11.1+、HTTPS、USD 建てストアと BoltUtil アカウントが必要です。通貨とネットワークを選択し、署名付き Webhook と支払い状態の検証後に注文を更新します。ストアへ戻るだけでは支払いの証明になりません。リアルタイムの為替レートは提供しません。WordPress.org または GitHub Releases のバージョン付きインストール ZIP を使用してください。デモでの購入には実際の資金を使います。
+プラグイン v0.6.3 は [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) ディレクトリで公開されています。WordPress 7.0+、PHP 7.4+、WooCommerce 11.1+、HTTPS、USD 建てストアと BoltUtil アカウントが必要です。通貨とネットワークを選択し、署名付き Webhook と支払い状態の検証後に注文を更新します。ストアへ戻るだけでは支払いの証明になりません。リアルタイムの為替レートは提供しません。WordPress.org または GitHub Releases のバージョン付きインストール ZIP を使用してください。デモでの購入には実際の資金を使います。
+
+請求書の支払いページ、クラシックチェックアウト、Checkout Blocks は、BoltUtil のカード、プロジェクトの元のアイコン、USDT/USDC 切り替えを共通で使用します。
 
 毎日の無料注文枠と、日次注文数の制限がないサブスクリプションがあります。最新の枠・特典・料金は公式サイトをご確認ください。ネットワーク手数料は別途発生します。不足・遅延・帰属不明の支払いは確認が必要です。取引所や自動法定通貨換算サービスではありません。
 

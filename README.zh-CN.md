@@ -25,10 +25,10 @@ BoltUtil 官方 API 集成文档与商户侧代码示例。通过非托管支付
 | 钱包快捷支付 | 自动填入地址、网络和准确金额，用户在钱包核对并确认 |
 | 手动转账 | 保留二维码、复制地址与完整应付金额，可切换使用 |
 | 支付运维 | 链上确认、交易哈希、订单时间线、回调日志、失败重试与人工核对 |
-| WooCommerce | 独立开源 v0.6.2 插件，先切换币种，再显示可用网络 |
+| WooCommerce | 独立开源 v0.6.3 插件，先切换币种，再显示可用网络 |
 | 多语言 | 官网界面和本仓库产品指南提供 12 种语言 |
 
-本仓库是**公开产品说明与商户集成入口**，不是生产平台源码。BoltUtil 托管服务属于闭源商业系统。[仓库范围](NOTICE.md)。托管服务、插件 **v0.6.2** 和公开文档版本分别维护。文档核对日期：**2026-11-16**。
+本仓库是**公开产品说明与商户集成入口**，不是生产平台源码。BoltUtil 托管服务属于闭源商业系统。[仓库范围](NOTICE.md)。托管服务、插件 **v0.6.3** 和公开文档版本分别维护。文档核对日期：**2026-11-19**。
 
 ## 六条链与十一种支付组合
 
@@ -93,11 +93,15 @@ Base 默认使用 L2 确认，满足配置的确认条件后更新订单。管�
 
 ## WordPress / WooCommerce 插件
 
-[**BoltUtil Payments for WooCommerce v0.6.2**](https://github.com/boltutil/boltutil-payments-for-woocommerce) 支持切换 USDT/USDC 和选择可用网络，再跳转收银台。插件验证签名回调并查询商户范围内的付款状态后才更新 WooCommerce 订单；返回商店页面不等于支付成功。
+[**BoltUtil Payments for WooCommerce v0.6.3**](https://github.com/boltutil/boltutil-payments-for-woocommerce) 支持切换 USDT/USDC 和选择可用网络，再跳转收银台。插件验证签名回调并查询商户范围内的付款状态后才更新 WooCommerce 订单；返回商店页面不等于支付成功。
+
+账单付款页、经典结账与 Checkout Blocks 已统一为 BoltUtil 卡片样式，使用项目原始图标并支持 USDT/USDC 切换。
+
+![WooCommerce v0.6.3 账单付款页，选择 USDC 和 Base](https://raw.githubusercontent.com/boltutil/boltutil-payments-for-woocommerce/v0.6.3/wordpress-org-assets/screenshot-2.jpg)
 
 要求：WordPress **7.0+**、PHP **7.4+**、WooCommerce **11.1+**、HTTPS、商店币种为 **USD**。美元数值总价作为稳定币账单基准，插件不提供实时兑换报价或汇率锁定，用户网络手续费单独计算。
 
-[安装包](https://github.com/boltutil/boltutil-payments-for-woocommerce/releases/tag/v0.6.2) · [配置说明](https://boltutil.com/zh/woocommerce?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=zh-CN_woocommerce) · [演示店](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=zh-CN_website)
+[安装包](https://github.com/boltutil/boltutil-payments-for-woocommerce/releases/tag/v0.6.3) · [配置说明](https://boltutil.com/zh/woocommerce?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=zh-CN_woocommerce) · [演示店](https://shop-test.boltutil.com/?utm_source=github&utm_medium=referral&utm_campaign=integration_hub&utm_content=zh-CN_website)
 
 插件已在 [WordPress.org 插件目录](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/)发布。可从目录安装，或使用 GitHub Release 的版本化安装 ZIP；GitHub 自动生成的源码 ZIP 不是插件安装包。
 

@@ -28,7 +28,9 @@ L’API accepte un montant minimum de 1 et jusqu’à six décimales. Les exempl
 
 ## WooCommerce et offres
 
-Le plugin v0.6.2 est publié dans le répertoire [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Il nécessite WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, une boutique en USD et un compte BoltUtil. Il permet de choisir monnaie et réseau, puis vérifie le Webhook signé et le statut avant de valider la commande ; revenir à la boutique ne prouve pas le paiement. Aucun taux de change en direct n’est fourni. Installez-le depuis WordPress.org ou avec le ZIP versionné de GitHub Releases. Les achats de la démo utilisent des fonds réels.
+Le plugin v0.6.3 est publié dans le répertoire [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/). Il nécessite WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, une boutique en USD et un compte BoltUtil. Il permet de choisir monnaie et réseau, puis vérifie le Webhook signé et le statut avant de valider la commande ; revenir à la boutique ne prouve pas le paiement. Aucun taux de change en direct n’est fourni. Installez-le depuis WordPress.org ou avec le ZIP versionné de GitHub Releases. Les achats de la démo utilisent des fonds réels.
+
+Le paiement des factures, le checkout classique et Checkout Blocks partagent la carte BoltUtil, les icônes originales et le sélecteur USDT/USDC.
 
 Un quota gratuit quotidien est disponible, avec des abonnements sans plafond quotidien de commandes. Consultez les quotas, avantages et tarifs actuels sur le site officiel. Les frais de réseau sont distincts. Les paiements insuffisants, tardifs ou ambigus doivent être examinés. BoltUtil n’est pas une plateforme d’échange et ne convertit pas automatiquement en monnaie fiduciaire.
 

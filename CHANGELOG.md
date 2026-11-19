@@ -2,6 +2,13 @@
 
 This changelog covers the documentation and merchant-side examples in this public repository. It is not a complete production-service deployment log.
 
+## WooCommerce documentation — 2026-11-19
+
+- Update current plugin references and release links to the published v0.6.3 across all twelve guides.
+- Describe the unified invoice, Classic Checkout and Checkout Blocks card with original icons and a USDT/USDC switch.
+- Show the current plugin invoice screenshot in the English and Chinese guides.
+- Preserve previous release history. Website and demo-store deployments remain separate.
+
 ## Documentation maintenance — 2026-11-16
 
 - Align current plugin references with the published v0.6.2 release and canonical `boltutil` organization URLs.

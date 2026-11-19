@@ -28,7 +28,9 @@ API 최소 금액은 1이고 소수점 이하 최대 6자리입니다. Node.js, 
 
 ## WooCommerce와 요금제
 
-플러그인 v0.6.2은 [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) 디렉터리에 게시되어 있습니다. WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD 통화 스토어와 BoltUtil 계정이 필요합니다. 토큰과 네트워크를 선택하고 서명된 Webhook과 결제 상태를 검증한 후 주문을 업데이트합니다. 스토어로 돌아오는 것만으로 결제가 증명되지는 않습니다. 실시간 환율은 제공하지 않습니다. WordPress.org 또는 GitHub Releases의 버전별 설치 ZIP을 이용하세요. 데모 구매에는 실제 자금이 사용됩니다.
+플러그인 v0.6.3은 [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) 디렉터리에 게시되어 있습니다. WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD 통화 스토어와 BoltUtil 계정이 필요합니다. 토큰과 네트워크를 선택하고 서명된 Webhook과 결제 상태를 검증한 후 주문을 업데이트합니다. 스토어로 돌아오는 것만으로 결제가 증명되지는 않습니다. 실시간 환율은 제공하지 않습니다. WordPress.org 또는 GitHub Releases의 버전별 설치 ZIP을 이용하세요. 데모 구매에는 실제 자금이 사용됩니다.
+
+청구서 결제 페이지, 클래식 체크아웃과 Checkout Blocks는 동일한 BoltUtil 카드, 프로젝트 원본 아이콘과 USDT/USDC 전환 기능을 사용합니다.
 
 매일 무료 주문 한도가 있으며 구독은 일일 주문 수 제한이 없습니다. 최신 한도·혜택·요금은 공식 사이트를 확인하세요. 네트워크 수수료는 별도입니다. 부족·지연·귀속 불명 결제는 검토가 필요합니다. BoltUtil은 거래소나 자동 법정통화 환전 서비스가 아닙니다.
 

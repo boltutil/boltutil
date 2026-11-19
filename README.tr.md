@@ -28,7 +28,9 @@ API en az 1 ve en fazla altı ondalık basamak kabul eder. Node.js, Python, PHP,
 
 ## WooCommerce ve planlar
 
-v0.6.2 eklentisi [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) dizininde yayımlanmıştır. WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD mağaza para birimi ve BoltUtil hesabı gerekir. Token ve ağ seçilir; sipariş tamamlanmadan önce imzalı Webhook ve ödeme durumu doğrulanır. Mağazaya dönüş ödeme kanıtı değildir. Canlı döviz kuru sunulmaz. WordPress.org üzerinden veya GitHub Releases sürüm ZIP dosyasıyla kurun. Demo satın alımları gerçek para kullanır.
+v0.6.3 eklentisi [WordPress.org](https://wordpress.org/plugins/boltutil-payments-for-woocommerce/) dizininde yayımlanmıştır. WordPress 7.0+, PHP 7.4+, WooCommerce 11.1+, HTTPS, USD mağaza para birimi ve BoltUtil hesabı gerekir. Token ve ağ seçilir; sipariş tamamlanmadan önce imzalı Webhook ve ödeme durumu doğrulanır. Mağazaya dönüş ödeme kanıtı değildir. Canlı döviz kuru sunulmaz. WordPress.org üzerinden veya GitHub Releases sürüm ZIP dosyasıyla kurun. Demo satın alımları gerçek para kullanır.
+
+Fatura ödeme sayfası, klasik ödeme ve Checkout Blocks aynı BoltUtil kartını, özgün simgeleri ve USDT/USDC seçicisini kullanır.
 
 Günlük ücretsiz kota ve günlük sipariş sınırı olmayan abonelikler bulunur. Güncel kota, özellik ve ücretler resmi sitededir; ağ ücretleri ayrıdır. Eksik, geç veya belirsiz ödemeler inceleme gerektirir. BoltUtil borsa değildir ve otomatik fiat dönüşümü yapmaz.
 
